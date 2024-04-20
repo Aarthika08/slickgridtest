@@ -2,6 +2,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "jszip": ["../node_modules/jszip/dist/jszip.min.js"]
+    },
     "outDir": "./out-tsc/app",
     "types": []
   },
